@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.figtree-normal {
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .figtree-bold {
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+  body{
+    background-color: hsl(47, 88%, 63%);
+    padding: 10rem 1rem 1rem 1rem;
+  }
+  .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container{
+    background-color: hsl(0, 0%, 100%);
+    width: 270px;
+    height: 420px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 4px 4px;
+    padding: 15px;
+  }
+  .image{
+   width: 238px;
+  }
+ .container img{
+    border-radius: 12px;
+    width: 100%;
+ }
+ .content{
+    margin-top: 12px;
+    margin-bottom: 12px;
+ }
+ .category{
+    font-size: .7rem;
+    background-color: hsl(47, 88%, 63%);
+    width: 73px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(0, 0%, 7%);
+    line-height: 150%;
+ }
+ .date{
+    font-size: .8rem;
+    line-height: 40px;
+ }
+ .title{
+    font-size: 1rem;
+    line-height: 40px;
+ }
+ .title:hover{
+   color: hsl(47, 88%, 63%);
+   cursor: pointer;
+ }
+ .description{
+    font-size: .7rem;
+    line-height: 18px;
+    color:hsl(0, 0%, 42%) ;
+ }
+ .author{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ .author img{
+    width: 28px;
+    margin-right: 10px;
+ }
+ .name{
+    display: flex;
+    align-items: center;
+    font-size: .6rem;
+ }
+ .attribution{
+    font-size: .6rem;
+    margin-top: 40px;
+ }
